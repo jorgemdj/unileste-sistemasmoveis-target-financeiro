@@ -1,4 +1,4 @@
-# 🎯 Target — App de Metas Financeiras
+# 🎯 Unileste-sistemasmoveis-target-financeiro — App de Metas Financeiras
 
 Expo SDK 54 · React Native 0.79 · React 19 · Expo Router 4
 
@@ -9,8 +9,8 @@ Expo SDK 54 · React Native 0.79 · React 19 · Expo Router 4
 ### 1. Crie o projeto
 
 ```bash
-npx create-expo-app@latest target --template blank-typescript
-cd target
+git clone https://github.com/jorgemdj/unileste-sistemasmoveis-target-financeiro.git
+npm install
 ```
 
 ### 2. Instale as dependências nativas via expo install
@@ -25,29 +25,9 @@ npx expo install expo-router react-native-safe-area-context react-native-screens
 npm install --save-dev babel-plugin-module-resolver
 ```
 
-### 4. Substitua os arquivos de configuração
-
-Copie para a raiz do projeto:
-- `package.json` (com `"main": "expo-router/entry"`)
-- `app.json` (com `scheme`, plugin expo-router, newArchEnabled)
-- `tsconfig.json` (com paths `"@/*": ["./src/*"]`)
-- `babel.config.js` (com module-resolver)
-- `metro.config.js` (com alias `@`)
-
-### 5. Copie a pasta src/
-
-Substitua qualquer pasta src existente pela deste projeto.
-
-### 6. Delete o App.tsx da raiz (se existir)
-
+### Rode
 ```bash
-rm App.tsx
-```
-
-### 7. Rode
-
-```bash
-npx expo start --clear
+npx expo start
 ```
 
 ---
