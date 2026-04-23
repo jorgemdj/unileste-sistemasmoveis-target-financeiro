@@ -1,6 +1,6 @@
 # 🎯 Unileste-sistemasmoveis-target-financeiro — App de Metas Financeiras
 
-Expo SDK 54 · Using node v24.14.1 (npm v11.11.0)
+Expo SDK 54 · Using node v20.20.2 (npm v10.8.2)
 
 ---
 
